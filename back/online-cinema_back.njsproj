@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{0896ad31-8017-448b-83bd-49c4341cd248}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <EnableTypeScript>true</EnableTypeScript>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="nest-cli.json" />
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="tsconfig.build.json" />
+        <None Include="tsconfig.json" />
+        <Content Include="README.md" />
+        <None Include="dist\app.controller.d.ts" />
+        <None Include="dist\app.module.d.ts" />
+        <None Include="dist\app.service.d.ts" />
+        <None Include="dist\main.d.ts" />
+        <None Include="src\app.controller.ts" />
+        <None Include="src\app.module.ts" />
+        <None Include="src\app.service.ts" />
+        <None Include="src\main.ts" />
+        <Content Include="test\jest-e2e.json" />
+        <None Include="test\app.e2e-spec.ts" />
+        <None Include="dist\actor\actor.controller.d.ts" />
+        <None Include="dist\actor\actor.dto.d.ts" />
+        <None Include="dist\actor\actor.model.d.ts" />
+        <None Include="dist\actor\actor.module.d.ts" />
+        <None Include="dist\actor\actor.service.d.ts" />
+        <None Include="dist\auth\auth.controller.d.ts" />
+        <None Include="dist\auth\auth.interface.d.ts" />
+        <None Include="dist\auth\auth.module.d.ts" />
+        <None Include="dist\auth\auth.service.d.ts" />
+        <None Include="dist\auth\auth.strategy.d.ts" />
+        <None Include="dist\config\jwt.config.d.ts" />
+        <None Include="dist\config\mongo.config.d.ts" />
+        <None Include="dist\config\telegram.config.d.ts" />
+        <None Include="dist\file\file.controller.d.ts" />
+        <None Include="dist\file\file.dto.d.ts" />
+        <None Include="dist\file\file.interface.d.ts" />
+        <None Include="dist\file\file.module.d.ts" />
+        <None Include="dist\file\file.service.d.ts" />
+        <None Include="dist\genre\genre.controller.d.ts" />
+        <None Include="dist\genre\genre.interface.d.ts" />
+        <None Include="dist\genre\genre.model.d.ts" />
+        <None Include="dist\genre\genre.module.d.ts" />
+        <None Include="dist\genre\genre.service.d.ts" />
+        <None Include="dist\movie\create-movie.dto.d.ts" />
+        <None Include="dist\movie\movie.controller.d.ts" />
+        <None Include="dist\movie\movie.model.d.ts" />
+        <None Include="dist\movie\movie.module.d.ts" />
+        <None Include="dist\movie\movie.service.d.ts" />
+        <None Include="dist\movie\upadte-movie.dto.d.ts" />
+        <None Include="dist\movie\update-movie.dto.d.ts" />
+        <None Include="dist\pipes\id.validation.pipe.d.ts" />
+        <None Include="dist\rating\rating.controller.d.ts" />
+        <None Include="dist\rating\rating.model.d.ts" />
+        <None Include="dist\rating\rating.module.d.ts" />
+        <None Include="dist\rating\rating.service.d.ts" />
+        <None Include="dist\telegram\telegram.interface.d.ts" />
+        <None Include="dist\telegram\telegram.module.d.ts" />
+        <None Include="dist\telegram\telegram.service.d.ts" />
+        <None Include="dist\user\user.controller.d.ts" />
+        <None Include="dist\user\user.model.d.ts" />
+        <None Include="dist\user\user.module.d.ts" />
+        <None Include="dist\user\user.service.d.ts" />
+        <None Include="dist\auth\decorators\auth.decorator.d.ts" />
+        <None Include="dist\auth\dto\auth.dto.d.ts" />
+        <None Include="dist\auth\dto\refreshToken.dto.d.ts" />
+        <None Include="dist\auth\guards\admin.guard.d.ts" />
+        <None Include="dist\auth\guards\jwt.guard.d.ts" />
+        <None Include="dist\auth\strategies\jwt.strategy.d.ts" />
+        <None Include="dist\genre\dto\create-genre.dto.d.ts" />
+        <None Include="dist\rating\dto\set-rating.dto.d.ts" />
+        <None Include="dist\user\decorators\user.decorator.d.ts" />
+        <None Include="dist\user\dto\update-user.dto.d.ts" />
+        <None Include="src\actor\actor.controller.ts" />
+        <None Include="src\actor\actor.dto.ts" />
+        <None Include="src\actor\actor.model.ts" />
+        <None Include="src\actor\actor.module.ts" />
+        <None Include="src\actor\actor.service.ts" />
+        <None Include="src\auth\auth.controller.ts" />
+        <None Include="src\auth\auth.interface.ts" />
+        <None Include="src\auth\auth.module.ts" />
+        <None Include="src\auth\auth.service.ts" />
+        <None Include="src\config\jwt.config.ts" />
+        <None Include="src\config\mongo.config.ts" />
+        <None Include="src\config\telegram.config.ts" />
+        <None Include="src\file\file.controller.ts" />
+        <None Include="src\file\file.interface.ts" />
+        <None Include="src\file\file.module.ts" />
+        <None Include="src\file\file.service.ts" />
+        <None Include="src\genre\genre.controller.ts" />
+        <None Include="src\genre\genre.interface.ts" />
+        <None Include="src\genre\genre.model.ts" />
+        <None Include="src\genre\genre.module.ts" />
+        <None Include="src\genre\genre.service.ts" />
+        <None Include="src\movie\movie.controller.ts" />
+        <None Include="src\movie\movie.model.ts" />
+        <None Include="src\movie\movie.module.ts" />
+        <None Include="src\movie\movie.service.ts" />
+        <None Include="src\movie\update-movie.dto.ts" />
+        <None Include="src\pipes\id.validation.pipe.ts" />
+        <None Include="src\rating\rating.controller.ts" />
+        <None Include="src\rating\rating.model.ts" />
+        <None Include="src\rating\rating.module.ts" />
+        <None Include="src\rating\rating.service.ts" />
+        <None Include="src\telegram\telegram.interface.ts" />
+        <None Include="src\telegram\telegram.module.ts" />
+        <None Include="src\telegram\telegram.service.ts" />
+        <None Include="src\user\user.controller.ts" />
+        <None Include="src\user\user.model.ts" />
+        <None Include="src\user\user.module.ts" />
+        <None Include="src\user\user.service.ts" />
+        <None Include="src\auth\decorators\auth.decorator.ts" />
+        <None Include="src\auth\dto\auth.dto.ts" />
+        <None Include="src\auth\dto\refreshToken.dto.ts" />
+        <None Include="src\auth\guards\admin.guard.ts" />
+        <None Include="src\auth\guards\jwt.guard.ts" />
+        <None Include="src\auth\strategies\jwt.strategy.ts" />
+        <None Include="src\genre\dto\create-genre.dto.ts" />
+        <None Include="src\rating\dto\set-rating.dto.ts" />
+        <None Include="src\user\decorators\user.decorator.ts" />
+        <None Include="src\user\dto\update-user.dto.ts" />
+        <Content Include="uploads\actors\holland.jpg" />
+        <Content Include="uploads\actors\stephanie.jpg" />
+        <Content Include="uploads\actors\will.jpg" />
+        <Content Include="uploads\default\Фон.png" />
+        <Content Include="uploads\movies\john-wick-small.jpg" />
+        <Content Include="uploads\movies\john-wick.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="dist" />
+        <Folder Include="dist\actor" />
+        <Folder Include="dist\auth" />
+        <Folder Include="dist\auth\decorators" />
+        <Folder Include="dist\auth\dto" />
+        <Folder Include="dist\auth\guards" />
+        <Folder Include="dist\auth\strategies" />
+        <Folder Include="dist\config" />
+        <Folder Include="dist\file" />
+        <Folder Include="dist\genre" />
+        <Folder Include="dist\genre\dto" />
+        <Folder Include="dist\movie" />
+        <Folder Include="dist\pipes" />
+        <Folder Include="dist\rating" />
+        <Folder Include="dist\rating\dto" />
+        <Folder Include="dist\telegram" />
+        <Folder Include="dist\user" />
+        <Folder Include="dist\user\decorators" />
+        <Folder Include="dist\user\dto" />
+        <Folder Include="online-cinema_back" />
+        <Folder Include="online-cinema_back\online-cinema_back" />
+        <Folder Include="src" />
+        <Folder Include="src\actor" />
+        <Folder Include="src\auth" />
+        <Folder Include="src\auth\decorators" />
+        <Folder Include="src\auth\dto" />
+        <Folder Include="src\auth\guards" />
+        <Folder Include="src\auth\strategies" />
+        <Folder Include="src\config" />
+        <Folder Include="src\file" />
+        <Folder Include="src\genre" />
+        <Folder Include="src\genre\dto" />
+        <Folder Include="src\movie" />
+        <Folder Include="src\pipes" />
+        <Folder Include="src\rating" />
+        <Folder Include="src\rating\dto" />
+        <Folder Include="src\telegram" />
+        <Folder Include="src\user" />
+        <Folder Include="src\user\decorators" />
+        <Folder Include="src\user\dto" />
+        <Folder Include="test" />
+        <Folder Include="uploads" />
+        <Folder Include="uploads\actors" />
+        <Folder Include="uploads\default" />
+        <Folder Include="uploads\movies" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>
