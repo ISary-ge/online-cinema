@@ -1,3 +1,0 @@
-C:\programming\online-cinema\back\obj\Debug\online-cinema_back.njsproj.AssemblyReference.cache
-C:\programming\online-cinema\back\obj\Debug\online-cinema_back.njsproj.CoreCompileInputs.cache
-C:\programming\online-cinema\back\bin\Microsoft.NodejsTools.WebRole.dll
